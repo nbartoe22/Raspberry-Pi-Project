@@ -1,0 +1,48 @@
+This project is a fully self‑hosted Raspberry Pi 5 home server, designed for reliability, efficiency, and long‑term expandability. It uses a dedicated SATA SSD for the operating system and a high‑speed NVMe SSD for media and container storage, following the same architecture used in professional server environments.
+
+The system runs entirely on Docker, allowing each service to operate in its own isolated container for stability, easy updates, and clean management. With Gigabit Ethernet, Wi‑Fi 6 support, and 24/7‑ready hardware, the Raspberry Pi 5 serves as a compact but powerful always‑on server.
+
+Core Capabilities
+Media Server — Streams movies, TV shows, music, and photos from the NVMe SSD
+
+Private VPN — Secure remote access to the home network
+
+Docker Host — Runs multiple isolated services efficiently
+
+Pi‑hole DNS Server — Blocks ads and trackers for the entire network
+
+Future Expansion — Additional containers and services as needed
+
+Hardware Architecture
+The server is built using:
+
+Raspberry Pi 5 (8GB) — The main compute unit, capable of running multiple services simultaneously
+
+120GB SATA SSD — Dedicated OS drive for Raspberry Pi OS, Docker, configs, logs, and system data
+
+1TB NVMe SSD — High‑speed media and container storage for Jellyfin, Home Assistant backups, databases, and large files
+
+Elecrow Mini PC Case — Provides cooling, NVMe support, airflow, and physical protection
+
+SATA‑to‑USB 3.0 Adapter — Connects the OS SSD to the Pi with fast, reliable USB 3.0 speeds
+
+Cat 6 Ethernet Cable — Ensures stable gigabit networking for streaming and automation
+
+CyberPower UPS — Protects against power loss, corruption, and electrical spikes
+
+Anti‑Static Mat — Prevents electrostatic discharge during assembly
+
+Arctic MX‑6 Thermal Paste — Improves CPU cooling and long‑term thermal stability
+
+Project Goals
+This home server is designed to be:
+
+Reliable — Protected by a UPS, cooled properly, and built for 24/7 uptime
+
+Fast — NVMe storage for media, SATA SSD for OS, Gigabit Ethernet for streaming
+
+Modular — Docker containers keep services clean, isolated, and easy to manage
+
+Expandable — Additional services can be added without reconfiguring the system
+
+Professional — Mirrors the architecture of real servers with separate OS and data drives
