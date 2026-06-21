@@ -1,0 +1,44 @@
+1. Raspberry Pi 5 (8GB)
+A compact ARM‑based computer with 8GB RAM, Gigabit Ethernet, and Wi‑Fi 6. Boots from a USB SSD for speed and reliability. Runs multiple Docker services 24/7 with low power use.
+
+Project Use: Media server, VPN, Docker host, Pi‑hole, and future services.
+
+2. Patriot Burst Elite 120GB SATA SSD
+Fast, silent SATA III SSD using flash memory for reliable 24/7 OS performance.
+
+Project Use: Main system drive for Raspberry Pi OS, Docker, configs, logs, updates, and services like Home Assistant, Pi‑hole, and Tailscale.
+
+3. Crucial P3 1TB NVMe SSD
+High‑speed PCIe NVMe SSD using QLC NAND for large, affordable storage. Much faster than SATA due to direct CPU communication.
+
+Project Use: Media storage (movies, shows, music), Jellyfin metadata, Home Assistant backups, databases, and large Docker volumes.
+
+4. Elecrow Mini PC Case
+Case with fan, heatsink, airflow vents, and NVMe expansion support. Protects the Pi and improves cooling for 24/7 uptime.
+
+Project Use: Houses the Pi and NVMe drive, keeps components cool, and provides clean cable routing.
+
+5. JSAUX SATA to USB 3.0 Adapter
+Converts SATA to USB 3.0 and powers the SSD. Supports up to 5 Gbps speeds.
+
+Project Use: Connects the 120GB SATA SSD as the OS drive, leaving NVMe storage free for media.
+
+6. Cat 6 Ethernet Cable
+1 Gbps‑capable copper Ethernet cable for stable, low‑latency networking.
+
+Project Use: Provides fast, reliable wired networking for streaming and automation.
+
+7. CyberPower ST425 UPS
+Battery backup and surge protector that keeps devices running during outages and filters electrical noise.
+
+Project Use: Prevents data corruption, protects SSDs and containers, and allows safe shutdown.
+
+8. Anti‑Static ESD Mat
+Prevents electrostatic discharge that can damage sensitive electronics.
+
+Project Use: Safe assembly of the Pi, NVMe, SATA adapter, and case components.
+
+9. Arctic MX‑6 Thermal Paste
+Improves heat transfer between CPU and heatsink, preventing throttling.
+
+Project Use: Enhances cooling and extends the Pi’s lifespan during heavy workloads.
